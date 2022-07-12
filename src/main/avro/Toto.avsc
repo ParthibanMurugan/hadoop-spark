@@ -1,0 +1,36 @@
+{
+  "type" : "record",
+  "name" : "TotoRecord",
+  "namespace": "com.spark.toto",
+  "fields" : [ {
+    "name" : "draw",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "date",
+    "type" : [ "long", "null" ]
+  }, {
+    "name" : "colOne",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "colTwo",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "colThree",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "colFour",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "colFive",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "colSix",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "addNumber",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "fromLast",
+    "type" : [ "string", "null" ]
+  } ]
+}
